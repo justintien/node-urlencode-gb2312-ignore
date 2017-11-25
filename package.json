@@ -1,0 +1,38 @@
+{
+  "name": "urlencode-gb2312-ignore",
+  "version": "1.0.0",
+  "description": "encodeURIComponent with charset",
+  "main": "lib/urlencode.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --ui tdd --require chai --recursive test/*.test.js --timeout 5000",
+    "test-cov": "istanbul cover _mocha --reporter spec --ui tdd --require chai --recursive test/*.test.js --timeout 5000 && open coverage/lcov-report/index.html"
+  },
+  "author": "Justin Tien <thitbbeb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "urlencode": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justintien/urlencode-gb2312-ignore.git"
+  },
+  "keywords": [
+    "urlencode",
+    "urldecode",
+    "encodeURIComponent",
+    "decodeURIComponent",
+    "querystring",
+    "parse",
+    "gb2312",
+    "ignore",
+    "gb2312//IGNORE"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
