@@ -1,6 +1,6 @@
 {
   "name": "urlencode-gb2312-ignore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "encodeURIComponent with charset",
   "main": "lib/urlencode.js",
   "directories": {
