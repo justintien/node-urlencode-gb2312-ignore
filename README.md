@@ -1,5 +1,8 @@
 # urlencode-gb2312-ignore
 
+[![Build Status](https://travis-ci.org/justintien/node-urlencode-gb2312-ignore.svg?branch=master)](https://travis-ci.org/justintien/node-urlencode-gb2312-ignore)
+[![Coverage Status](https://coveralls.io/repos/github/justintien/node-urlencode-gb2312-ignore/badge.svg?branch=master)](https://coveralls.io/github/justintien/node-urlencode-gb2312-ignore?branch=master)
+
 `某些第三方 api 只支援 gb2312 参数, 但碍于又不想装 iconv (alpine 需要装 python), 所以采用 urlencode (iconv-lite based) charset = 'gb2312' 时触发 ignore`
 
 ## Install
