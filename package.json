@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha --reporter spec --ui tdd --require chai --recursive test/*.test.js --timeout 5000",
-    "test-cov": "istanbul cover _mocha --reporter spec --ui tdd --require chai --recursive test/*.test.js --timeout 5000 && open coverage/lcov-report/index.html"
+    "test-cov": "istanbul cover _mocha"
   },
   "author": "Justin Tien <thitbbeb@gmail.com>",
   "license": "MIT",
