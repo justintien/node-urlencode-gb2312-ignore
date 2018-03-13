@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+- 8
+after_success:
+- npm run test-cov
+deploy:
+  provider: npm
+  email: "$NPM_EMAIL"
+  api_key:
+    secure: SgQiGFheMt/hdcArcDAu+P6cjy0ducuUX1eZQ02qi5yClcYTESdUMtjeMAPzUDH04wZ3fx9OY6EvHXZ9KNxrDy2oKGG09RS52e95fa0I0kN7aHDfDPdudnMXQIM5ej82qFCeAl9ClQKJG/xqe83nOBcJxdDF/7aRdDvZHBAgTilYXXyi32NKdZRNqiX8u26jXudCsXhSQOLkk5bjjPbiAbwj8kQVXNg6MYlv4dJIHfhQrvaAp4qR5ekSBpXxBPcO3jSJWGwvry+JfsUpOs+6mNu1iE8yXIjfDBy3pUdO/Cj3XKZb+wNt016BxI2XhJbGmI5Qm4xnMNAxE0NHiO5zlMy8+fTSJVFBqUsbbxVqhNy2bV13OUMFnpSKGY3ThVNuuBQcYM77UgxsZzTR+L3LkV2TL/FDLSExh+PmtmQwr0Ofx7VePqM+8mOuY4coCorw6Ah+6JzxRU0+SeJ/bWVLx51E6NkInzKvPYUM6XRIwOONAYC0o1ePNd/Gck755DUNV+L9VoTI4ngi8yvwKdMs4UsgfIw4NjAHtDr3WVw+cpOxwL5R1KF3L9N8wStKKsGR3jXGIyLkfNKaexxkheFMN5ztPfLskkPCukKo8RMpKyTTJ1Un2hqYnX46lvqpef670LH1t90qKFoMde/yfy+b0IzB4eHDseYCOzpOM05Gg0Q=
+  skip_cleanup: true
+  on:
+    repo: justintien/node-urlencode-gb2312-ignore
+    branch: master
