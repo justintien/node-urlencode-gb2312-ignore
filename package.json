@@ -1,5 +1,5 @@
 {
-  "name": "urlencode-gb2312-ignore",
+  "name": "@thitbbeb/urlencode-gb2312-ignore",
   "version": "1.0.3",
   "description": "encodeURIComponent with charset",
   "main": "lib/urlencode.js",
